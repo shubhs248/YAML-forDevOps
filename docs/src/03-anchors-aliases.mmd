@@ -1,0 +1,6 @@
+flowchart LR
+    def[and-defaults anchor<br/>retries: 3<br/>timeout: 30] -->|reused as alias| svc1[service A]
+    def -->|reused as alias| svc2[service B]
+
+    class def data
+    class svc1,svc2 app

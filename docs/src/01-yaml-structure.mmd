@@ -1,0 +1,10 @@
+flowchart TB
+    root[YAML document] --> map[Mapping<br/>key: value]
+    root --> seq[Sequence<br/>- item]
+    map --> scalar[Scalar<br/>string / number / bool / null]
+    map --> nested[Nested mapping]
+    seq --> items[Scalars or mappings]
+
+    class root client
+    class map,seq edge
+    class scalar,nested,items app

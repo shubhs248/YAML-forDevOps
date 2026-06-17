@@ -12,6 +12,20 @@
 
 YAML looks easy until a single wrong space breaks your pipeline or your Kubernetes deploy. This lab gives you a fast refresher, a set of **broken files to fix**, and **write-from-scratch** tasks for real DevOps configs — with a `check.py` script that tells you immediately whether your YAML is valid.
 
+## 🗺️ Visual overview
+
+A few pictures before the practice. Full set (light + dark, ready for slides/LinkedIn) is in the [diagram gallery](docs/README.md).
+
+**YAML structure** — mappings, sequences, and scalars, nested by indentation.
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="docs/01-yaml-structure-dark.png"><img alt="YAML structure" src="docs/01-yaml-structure.png"></picture>
+
+**Scalar data types** (watch the gotchas) and **anchors/aliases** for reuse.
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="docs/02-data-types-dark.png"><img alt="YAML data types" src="docs/02-data-types.png"></picture>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="docs/03-anchors-aliases-dark.png"><img alt="YAML anchors and aliases" src="docs/03-anchors-aliases.png"></picture>
+
 ## 🗂️ What's inside
 
 ```

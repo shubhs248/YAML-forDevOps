@@ -1,0 +1,9 @@
+flowchart TB
+    s[Scalar values] --> str[String]
+    s --> num[Number]
+    s --> bool[Boolean<br/>true / false]
+    s --> nul[Null<br/>null or ~]
+    s --> date[Timestamp]
+
+    class s client
+    class str,num,bool,nul,date app
