@@ -1,0 +1,2 @@
+# check.py uses PyYAML to parse and validate YAML files.
+PyYAML>=6.0

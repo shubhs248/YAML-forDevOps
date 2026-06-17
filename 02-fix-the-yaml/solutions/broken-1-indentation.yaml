@@ -1,0 +1,8 @@
+# FIXED: the second list item now lines up with the first (4 spaces).
+service:
+  name: web-01
+  role: web
+  ports:
+    - 80
+    - 443
+  enabled: true

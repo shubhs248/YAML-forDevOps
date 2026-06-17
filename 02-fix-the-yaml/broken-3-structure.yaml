@@ -1,0 +1,9 @@
+# BUG TYPE: structure (a block is trying to be a list AND a map at once)
+# This pipeline config mixes list items with a key at the same level.
+# Run:  python check.py 02-fix-the-yaml/broken-3-structure.yaml
+pipeline:
+  name: ci
+  stages:
+    - build
+    - test
+    deploy: production

@@ -1,0 +1,6 @@
+# FIXED: the summary contains ': ', so it must be quoted to stay one string.
+alert:
+  name: disk-usage
+  summary: "Disk is full: take action now"
+  threshold: 90
+  enabled: true

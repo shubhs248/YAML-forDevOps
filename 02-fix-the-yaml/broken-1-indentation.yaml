@@ -1,0 +1,10 @@
+# BUG TYPE: indentation
+# This file describes a web service, but one line is indented wrong.
+# Run:  python check.py 02-fix-the-yaml/broken-1-indentation.yaml
+service:
+  name: web-01
+  role: web
+  ports:
+    - 80
+   - 443
+  enabled: true

@@ -1,0 +1,8 @@
+# BUG TYPE: a value that needs quotes
+# This alert config has a value containing a colon, which confuses YAML.
+# Run:  python check.py 02-fix-the-yaml/broken-2-quotes.yaml
+alert:
+  name: disk-usage
+  summary: Disk is full: take action now
+  threshold: 90
+  enabled: true

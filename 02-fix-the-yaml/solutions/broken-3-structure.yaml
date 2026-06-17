@@ -1,0 +1,8 @@
+# FIXED: 'deploy' was meant to be a third stage, and the target is its own key.
+pipeline:
+  name: ci
+  stages:
+    - build
+    - test
+    - deploy
+  target: production
