@@ -1,5 +1,13 @@
 # Part 1 — YAML Basics (Refresher)
 
+*The structure of a YAML document — mappings, sequences, scalars:*
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="../docs/01-yaml-structure-dark.png"><img alt="YAML structure" src="../docs/01-yaml-structure.png"></picture>
+
+*Scalar data types (and the gotchas to quote around):*
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="../docs/02-data-types-dark.png"><img alt="YAML data types" src="../docs/02-data-types.png"></picture>
+
 ## 🎯 Goal
 Refresh how YAML represents data so the broken-file and write-from-spec parts feel easy.
 

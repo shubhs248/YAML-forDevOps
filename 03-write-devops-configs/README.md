@@ -1,5 +1,9 @@
 # Part 3 — Write DevOps Configs
 
+*Anchors and aliases let you define a block once and reuse it:*
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="../docs/03-anchors-aliases-dark.png"><img alt="YAML anchors and aliases" src="../docs/03-anchors-aliases.png"></picture>
+
 ## 🎯 Goal
 Put your YAML to work by writing the three configs you meet most: a **Kubernetes Deployment**, a **GitHub Actions workflow**, and a **Docker Compose file** — each from a written spec.
 
