@@ -77,6 +77,12 @@ python check.py 02-fix-the-yaml/broken-1-indentation.yaml
 
 ---
 
+## 🎤 Prepping for an interview?
+
+After you've done the exercises, open **[INTERVIEW-QUESTIONS.md](INTERVIEW-QUESTIONS.md)** — the YAML questions interviewers actually ask (including all the gotchas), in plain English with short answers you can say out loud and spot-the-bug drills.
+
+---
+
 ## ⭐ Found this useful?
 
 - **Star** ⭐ the repo so more people discover it.
